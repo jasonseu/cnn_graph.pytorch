@@ -1,0 +1,70 @@
+{
+    "mnist": {
+        "graph": {
+            "number_edges": 8,
+            "metric": "euclidean",
+            "normalized_laplacian": true,
+            "coarsening_levels": 4
+        },
+        "arch": {
+            "fourier": {
+                "layer1": {
+                    "filter_size": [32],
+                    "pooling_size": [1]
+                },
+                "layer2": {
+                    "filter_size": [32, 64],
+                    "pooling_size": [4, 4],
+                    "hidden_size": 512
+                }
+            },
+            "chebyshev": {
+                "layer1": {
+                    "filter_size": [32],
+                    "pooling_size": [1],
+                    "poly_degree": [25]
+                },
+                "layer2": {
+                    "filter_size": [32, 64],
+                    "pooling_size": [4, 4],
+                    "poly_degree": [25, 25],
+                    "hidden_size": 512
+                }
+            }
+        }
+    },
+    "20news": {
+        "graph": {
+            "number_edges": 16,
+            "metric": "cosine",
+            "normalized_laplacian": true,
+            "coarsening_levels": 0
+        },
+        "arch": {
+            "fourier": {
+                "layer1": {
+                    "filter_size": [32],
+                    "pooling_size": [1]
+                },
+                "layer2": {
+                    "filter_size": [32, 64],
+                    "pooling_size": [4, 4],
+                    "hidden_size": 512
+                }
+            },
+            "chebyshev": {
+                "layer1": {
+                    "filter_size": [32],
+                    "pooling_size": [1],
+                    "poly_degree": [5]
+                },
+                "layer2": {
+                    "filter_size": [32, 64],
+                    "pooling_size": [4, 4],
+                    "poly_degree": [5, 5],
+                    "hidden_size": 512
+                }
+            }
+        }
+    }
+}
