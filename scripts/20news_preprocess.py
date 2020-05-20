@@ -1,13 +1,11 @@
 import os
 import re
+import sys
+sys.path.insert(0, os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
 
 import matplotlib.pyplot as plt
 from scipy import sparse
 import numpy as np
-# import gensim
-# import sklearn.datasets
-import sys
-sys.path.append('/nfs/users/zhuxuelin/gnn/cnn_graph.pytorch')
 
 from lib.utils import Text20News
 
