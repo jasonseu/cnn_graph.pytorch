@@ -17,7 +17,8 @@ python train.py --data mnist --filter fourier --gc_layers 2
 python train.py --data mnist --filter chebyshev --gc_layers 1
 python train.py --data mnist --filter chebyshev --gc_layers 2
 ```
-where `gc_layers=1` corresponds to the network architecture `GC32`, and `gc_layers=2` to `GC32-P4-GC64-P4-FC512`
+where `gc_layers=1` corresponds to the network architecture `GC32`, and `gc_layers=2` to `GC32-P4-GC64-P4-FC512`.
+
 To train and evaluate on 20news dataset, you need to run following script in order to preprocess the documents and generate required intermediate data.
 
 ```
