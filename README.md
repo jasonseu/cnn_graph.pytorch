@@ -1,6 +1,6 @@
 # CNN_Graph.pytorch
 
-This repository is an unofficial implememnts of the paper "Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering" in NIPS 2016 with **PyTorch**. It supports to train and evaluate the network on the 20news and mnist.
+This repository is an unofficial implement of the paper "Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering" in NIPS 2016 with **PyTorch**. It supports to train and evaluate the network on the 20news and mnist.
 
 ## Requirements
 
