@@ -34,7 +34,7 @@ python train.py --data 20news --filter chebyshev --gc_layers 1
 
 Note that the codes under the folder `lib` are completely borrowed from original codebase [CNN_Graph](https://github.com/mdeff/cnn_graph), where the redundant functions have been removed. This part is responsible for graph building and coarsening. 
 
-# Performance 
+## Performance 
 
 **MNIST**
 
@@ -50,6 +50,6 @@ Note that the codes under the folder `lib` are completely borrowed from original
 | Fourier   |   0.5504   |     -      |
 | Chebyshev |   0.5554   |     -      |
 
-# Acknowledgements
+## Acknowledgements
 
 Thanks the official [CNN_Graph](https://github.com/mdeff/cnn_graph) implemented with TensorFlow and awesome PyTorch team.
